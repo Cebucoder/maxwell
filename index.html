@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon/png" href="./images/icon.png">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- maincontiner -->
+    <div class="main-container">
+        <!-- navigation bar -->
+        <div class="navigation">
+
+            <!-- logocont -->
+            <div class="logo-cont">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+
+            <div class="navink" id="menu">
+                <ul>
+                    <li onclick="closeMenu()"><a href="#top">Home</a></li>
+                    <li onclick="closeMenu()"><a href="#course">Course</a></li>
+                    <li onclick="closeMenu()"><a href="#About">About</a></li>
+                    <li onclick="closeMenu()"><a href="#mission">Mission / Vision</a></li>
+                </ul>
+            </div>
+
+            <!-- menu bar -->
+            <div class="menu" onclick="openMenu()">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+        </div>
+
+        <!-- banner -->
+        <div class="banner-cont" id="top">
+            <img src="./images/banner1.jpg" alt="">
+        </div>
+
+        <!-- Banner2 -->
+        <div class="banner-cont2" id="course">
+            <h1>Maxwell Courses</h1>
+
+            <div class="course-banner">
+               <!-- card1 -->
+               <div class="course-card">
+                <small>E Business</small>
+                <div class="course-img">
+                    <img src="./images/ebusiness.jpg" alt="">
+                    <!-- overlay -->
+                    <div class="overlay">
+                        <button>Enroll Now</button>
+                    </div>
+                </div>
+               </div>
+
+               <!-- card1 -->
+               <div class="course-card">
+                <small>Business Management</small>
+                <div class="course-img">
+                    <img src="./images/mbusiness.webp" alt="">
+                    <!-- overlay -->
+                    <div class="overlay">
+                        <button>Enroll Now</button>
+                    </div>
+                </div>
+               </div>
+
+               <!-- card1 -->
+               <div class="course-card">
+                <small>IT (Web Design)</small>
+                <div class="course-img">
+                    <img src="./images/webdesign.jpg" alt="">
+                    <!-- overlay -->
+                    <div class="overlay">
+                        <button>Enroll Now</button>
+                    </div>
+                </div>
+               </div>
+
+               <!-- card1 -->
+               <div class="course-card">
+                <small>Journalism</small>
+                <div class="course-img">
+                    <img src="./images/journalism.webp" alt="">
+                    <!-- overlay -->
+                    <div class="overlay">
+                        <button>Enroll Now</button>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="showmore">
+           <span>
+            <button>Show more</button>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+           </span>
+        </div>
+
+        <!-- about maxwell -->
+        <div class="about-header" id="About">
+            <h1>About Maxwell</h1>
+        </div>
+
+        <!-- about 1 -->
+        <div class="about-cont" >
+            <div class="about-img">
+                <img src="./images/banner.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <h4>About Maxwell</h4>
+                <p>
+                    Maxwell International School is one of the most well known schools in the Philippines. It is heavily considered as a school for the riches. In this school, male students wear white plain polos, black pants, and a Maxwell gray vest. 
+                </p>
+                <p>
+                    While female students wear white uniforms, blue skirts, blue neck tie, and a Maxwell gray coat.
+                </p>
+
+                <div class="learn-btn">
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- about 2 -->
+        <div class="about-cont reverse">
+            <div class="about-img">
+                <img src="./images/banner2.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <h4>Maxwell Integrated School</h4>
+                <p>
+                    Maxwell Integrated School is exactly the opposite of the Maxwell International School. Instead for the riches, this school is for the less fortunate. In this school, male and female students wear Maxwell gray shirts and jeans or denim pants.
+                </p>
+                <p>
+                    However, numerous scenes in the series show that the students at Maxwell Integrated School are smarter than those at Maxwell International School
+                </p>
+
+                <div class="learn-btn">
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- about 3-->
+        <div class="about-cont" id="mission">
+            <div class="about-img max-logo">
+                <div class="max-logo-cont">
+                    <img src="./images/logo.jpg" alt="">
+                </div>
+            </div>
+            <div class="about-details">
+                <h4>Maxwell Mission & Vision</h4>
+                <p>
+                    Our Vision is a community where all children feel loved, respected and encouraged to develop to their fullest potential. 
+                </p>
+                <p>
+                    Our Mission is to provide high quality education and childcare in a safe, respectful and inclusive environment that builds a foundation for life-long learning.
+                </p>
+
+                <div class="learn-btn">
+                    <button>Learn More</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-cont">
+
+    
+
+           <div class="footer-flex">
+
+
+            <div class="social-cont">
+                <span>You can follow maxwell on :</span>
+                <span>
+                    <ion-icon name="logo-Facebook"></ion-icon>
+                    <small>Facebook</small>
+                </span>
+                <span>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <small>Instagram</small> 
+                </span>
+                <span>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <small>Twitter</small>
+                </span>
+                <span>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <small>Youtube</small>
+                </span>
+            </div>
+
+            <div class="footer-logo">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+
+            <div class="contact">
+                <small>Message us</small>
+                <textarea ></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+    <div class="Privacy">
+        <span>
+            <a href="">Academic Calendar</a>
+            <a href="">Emergencies</a>
+            <a href="">Maps & Diretions</a>
+            <a href="">Privacy & Policy</a>
+            <a href="">Policy</a>
+        </span>
+        <span class="created">
+            © All right reserve Maxwell International 2023
+        </span>
+    </div>
+    
+</body>
+
+<script>
+    
+let menucont = document.getElementById("menu");
+function openMenu(){
+    menucont.classList.toggle("show-navlink");
+}
+
+
+function closeMenu(){
+    menucont.classList.remove("show-navlink");
+
+}
+</script>
+
+<!-- icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</html>
